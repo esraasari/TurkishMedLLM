@@ -1,0 +1,5 @@
+.env
+.venv/
+rag_hazir_veri.csv
+medical_index.faiss
+__pycache__/
