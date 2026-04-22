@@ -9,7 +9,6 @@ import os
 load_dotenv() # .env dosyasını oku
 
 # 1. Ayarlar
-# ÖNEMLİ: Yeni oluşturduğun anahtarı buraya yapıştır!
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 print("Modeller ve indeks yükleniyor...")
