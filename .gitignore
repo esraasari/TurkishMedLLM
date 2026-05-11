@@ -1,5 +1,15 @@
-.env
+# Python sanal ortamı
 .venv/
-rag_hazir_veri.csv
-medical_index.faiss
+venv/
 __pycache__/
+
+# Büyük veri dosyaları
+veriler/
+*.csv
+
+# Otomatik oluşan veritabanı/indeks dosyaları
+*.faiss
+
+# Editör ayarları ve gizli dosyalar
+.vscode/
+.env
